@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp AI Voice Agent | Neuereatec Enterprise</title>
+    <meta name="description" content="Never miss a call again. Your customers call on WhatsApp, our AI answers instantly—taking orders, bookings, and questions 24/7. Powered by Grok AI. Installed by Neuereatec Enterprise, Guyana.">
+    <meta name="keywords" content="WhatsApp AI, voice agent, Guyana, business automation, AI assistant, order taking, booking system, Neuereatec">
+    <meta name="author" content="Neuereatec Enterprise">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://neuereatec.org">
+    <meta property="og:title" content="WhatsApp AI Voice Agent | Never Miss a Call Again">
+    <meta property="og:description" content="Your customers call on WhatsApp, our AI answers instantly—taking orders, bookings, and questions 24/7. Powered by Grok AI. Installed by Neuereatec Enterprise.">
+    <meta property="og:image" content="https://neuereatec.org/og-image.png">
+    <meta property="og:locale" content="en_GY">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="WhatsApp AI Voice Agent | Never Miss a Call Again">
+    <meta name="twitter:description" content="Your customers call on WhatsApp, our AI answers instantly—taking orders, bookings, and questions 24/7.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%2325D366'/><stop offset='100%25' stop-color='%23128C7E'/></linearGradient></defs><circle cx='50' cy='50' r='45' fill='url(%23g)'/><path d='M50 25c-13.8 0-25 11.2-25 25 0 4.4 1.2 8.6 3.3 12.3L25 75l13.2-3.5c3.5 1.9 7.5 3 11.8 3 13.8 0 25-11.2 25-25s-11.2-25-25-25zm12.5 32.8c-.5 1.5-3 2.8-4.2 3-.1 0-.2 0-.3.1-1.1.1-2.5.2-8.5-1.8-7.5-2.5-12.3-10.1-12.7-10.6-.3-.5-2.8-3.8-2.8-7.2 0-3.4 1.8-5.1 2.4-5.8.6-.7 1.3-.8 1.8-.8h1.3c.4 0 1-.2 1.5 1.2.6 1.4 1.9 4.7 2.1 5 .2.3.3.7.1 1.1-.2.4-.3.7-.6 1-.3.4-.6.8-1 1.2-.3.3-.6.7-.3 1.3.4.6 1.6 2.7 3.5 4.3 2.4 2.1 4.4 2.8 5 3.1.6.3 1 .3 1.3-.2.4-.5 1.5-1.8 1.9-2.4.4-.6.8-.5 1.4-.3.5.2 3.4 1.6 4 1.9.6.3 1 .4 1.1.7.2.2.2 1.3-.3 2.8z' fill='white'/></svg>">
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#25D366"/>
+                                <stop offset="100%" stop-color="#128C7E"/>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="50" cy="50" r="45" fill="url(#logoGrad)"/>
+                        <path d="M50 25c-13.8 0-25 11.2-25 25 0 4.4 1.2 8.6 3.3 12.3L25 75l13.2-3.5c3.5 1.9 7.5 3 11.8 3 13.8 0 25-11.2 25-25s-11.2-25-25-25zm12.5 32.8c-.5 1.5-3 2.8-4.2 3-.1 0-.2 0-.3.1-1.1.1-2.5.2-8.5-1.8-7.5-2.5-12.3-10.1-12.7-10.6-.3-.5-2.8-3.8-2.8-7.2 0-3.4 1.8-5.1 2.4-5.8.6-.7 1.3-.8 1.8-.8h1.3c.4 0 1-.2 1.5 1.2.6 1.4 1.9 4.7 2.1 5 .2.3.3.7.1 1.1-.2.4-.3.7-.6 1-.3.4-.6.8-1 1.2-.3.3-.6.7-.3 1.3.4.6 1.6 2.7 3.5 4.3 2.4 2.1 4.4 2.8 5 3.1.6.3 1 .3 1.3-.2.4-.5 1.5-1.8 1.9-2.4.4-.6.8-.5 1.4-.3.5.2 3.4 1.6 4 1.9.6.3 1 .4 1.1.7.2.2.2 1.3-.3 2.8z" fill="white"/>
+                    </svg>
+                </span>
+                <span class="logo-text">Neuereatec</span>
+            </a>
+            <div class="nav-links">
+                <a href="#try-live">Try It Live</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <a href="https://wa.me/5927129487?text=Hi%20Neuereatec%2C%20I%20want%20the%20WhatsApp%20AI%20Voice%20Agent%20for%20my%20business" class="nav-cta btn btn-primary btn-sm" target="_blank" rel="noopener">
+                Get Started
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-mobile" id="navMobile">
+            <a href="#try-live">Try It Live</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+            <a href="https://wa.me/5927129487?text=Hi%20Neuereatec%2C%20I%20want%20the%20WhatsApp%20AI%20Voice%20Agent%20for%20my%20business" class="btn btn-primary" target="_blank" rel="noopener">
+                Get Started
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-glow hero-glow-1"></div>
+            <div class="hero-glow hero-glow-2"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge animate-fade-up">
+                    <span class="badge-dot"></span>
+                    Powered by Grok AI
+                </div>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    Your Customers Call.<br>
+                    <span class="gradient-text">AI Answers.</span><br>
+                    You Never Miss a Sale.
+                </h1>
+                <p class="hero-subtitle animate-fade-up delay-2">
+                    An AI voice agent that picks up WhatsApp calls instantly—taking orders, bookings, and questions <strong>24/7</strong>. No app for customers. No tech headaches for you. We set it all up.
+                </p>
+                <div class="hero-ctas animate-fade-up delay-3">
+                    <a href="#try-live" class="btn btn-primary btn-lg">
+                        <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Try It Live Now
+                    </a>
+                    <a href="https://wa.me/5927129487?text=Hi%20Neuereatec%2C%20I%20want%20the%20WhatsApp%20AI%20Voice%20Agent%20for%20my%20business" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">
+                        <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Get It Set Up
+                    </a>
+                </div>
+                <div class="hero-stats animate-fade-up delay-4">
+                    <div class="hero-stat">
+                        <span class="stat-value">24/7</span>
+                        <span class="stat-label">Always On</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-value">~2</span>
+                        <span class="stat-label">Rings to Answer</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Missed Calls</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual animate-fade-up delay-2">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="whatsapp-call">
+                                <div class="call-header">
+                                    <div class="call-avatar">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                            <circle cx="20" cy="20" r="20" fill="url(#avatarGrad)"/>
+                                            <defs>
+                                                <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                    <stop offset="0%" stop-color="#25D366"/>
+                                                    <stop offset="100%" stop-color="#128C7E"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M20 12c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 12c-2.2 0-4.2-1.1-5.4-2.8.1-1.8 3.6-2.7 5.4-2.7s5.3.9 5.4 2.7c-1.2 1.7-3.2 2.8-5.4 2.8z" fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <div class="call-info">
+                                        <span class="call-name">Island Grill</span>
+                                        <span class="call-status">
+                                            <span class="status-dot"></span>
+                                            AI Assistant Speaking
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="call-waveform" id="waveform">
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                </div>
+                                <div class="call-transcript" id="transcript">
+                                    <div class="transcript-bubble customer">
+                                        "I want to order two pepper pot with rice, one for here and one to go"
+                                    </div>
+                                    <div class="transcript-bubble ai">
+                                        "Got it! Two pepper pot with rice—one dine-in, one takeaway. Would you like anything to drink with that?"
+                                    </div>
+                                    <div class="transcript-bubble customer">
+                                        "Add two mauby"
+                                    </div>
+                                    <div class="transcript-bubble ai typing">
+                                        <span class="typing-dot"></span>
+                                        <span class="typing-dot"></span>
+                                        <span class="typing-dot"></span>
+                                    </div>
+                                </div>
+                                <div class="call-timer">02:34</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#try-live" class="scroll-indicator" aria-label="Scroll to next section">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Try It Live Section -->
+    <section class="section try-live-section" id="try-live">
+        <div class="container">
+            <div class="try-live-container animate-on-scroll">
+                <div class="try-live-badge">
+                    <span class="pulse-ring"></span>
+                    Live Demo Available 24/7
+                </div>
+                <h2 class="try-live-title">
+                    Try It <span class="gradient-text">Right Now</span>
+                </h2>
+                <p class="try-live-subtitle">
+                    Call our AI on WhatsApp and experience it yourself. Ask about loans, business plans, or anything you like.
+                </p>
+                <div class="try-live-number">
+                    <div class="number-display">
+                        <div class="number-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </div>
+                        <span class="number-text" id="demoNumber">+592 712 9487</span>
+                    </div>
+                </div>
+                <div class="try-live-buttons">
+                    <a href="https://wa.me/5927129487" class="btn btn-primary btn-lg" target="_blank" rel="noopener" id="whatsappCallLink">
+                        <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Open WhatsApp & Call
+                    </a>
+                    <a href="tel:+5927129487" class="btn btn-secondary btn-lg" id="telLink">
+                        <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call Directly
+                    </a>
+                </div>
+                <div class="try-live-instructions">
+                    <h4 class="instructions-title">How to try it:</h4>
+                    <p class="instructions-text">
+                        1. Tap "Open WhatsApp" above<br>
+                        2. In the chat, tap the <strong>call icon</strong> (top right) to start a voice call<br>
+                        3. Say hi and ask anything—like a loan question or a business plan for a wash bay!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Section -->
+    <section class="section pain-section" id="pain">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">The Problem</span>
+                <h2 class="section-title animate-on-scroll">
+                    Every Missed Call Is a<br><span class="gradient-text">Missed Sale</span>
+                </h2>
+            </div>
+            <div class="pain-grid">
+                <div class="pain-card animate-on-scroll">
+                    <div class="pain-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="24" fill="rgba(239, 68, 68, 0.1)"/>
+                            <path d="M32 16L16 32M16 16l16 16" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="pain-title">Missed Calls During Rush</h3>
+                    <p class="pain-text">Customer calls while you're serving someone else. They hang up. They call your competitor instead.</p>
+                </div>
+                <div class="pain-card animate-on-scroll">
+                    <div class="pain-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="24" fill="rgba(239, 68, 68, 0.1)"/>
+                            <circle cx="24" cy="24" r="10" stroke="#EF4444" stroke-width="3" fill="none"/>
+                            <path d="M24 18v6l4 2" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="pain-title">After-Hours Lost Revenue</h3>
+                    <p class="pain-text">Hungry customer at 10pm wants to order. Your phone's off. That's G$5,000 gone.</p>
+                </div>
+                <div class="pain-card animate-on-scroll">
+                    <div class="pain-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="24" fill="rgba(239, 68, 68, 0.1)"/>
+                            <path d="M18 20h12M18 24h8M18 28h10" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="pain-title">"Sorry, We Were Busy"</h3>
+                    <p class="pain-text">Customers hate hearing that. They wanted to book, not wait. Now they're frustrated—and gone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="section video-section" id="video">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Watch It In Action</span>
+                <h2 class="section-title animate-on-scroll">
+                    See How It <span class="gradient-text">Transforms Your Business</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    From missed calls to instant service—watch the difference AI makes
+                </p>
+            </div>
+            <div class="video-container animate-on-scroll">
+                <div class="video-wrapper">
+                    <video 
+                        class="promo-video" 
+                        id="promoVideo"
+                        poster="assets/video-poster.jpg"
+                        muted 
+                        playsinline
+                        loop
+                        preload="metadata"
+                    >
+                        <source src="assets/promo-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-control-btn" id="videoSoundBtn" aria-label="Toggle sound">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="soundOffIcon">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <line x1="23" y1="9" x2="17" y2="15"></line>
+                                <line x1="17" y1="9" x2="23" y2="15"></line>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="soundOnIcon" style="display:none;">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                            </svg>
+                        </button>
+                        <button class="video-control-btn" id="videoPlayBtn" aria-label="Play/Pause">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="playIcon" style="display:none;">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="pauseIcon">
+                                <rect x="6" y="4" width="4" height="16"></rect>
+                                <rect x="14" y="4" width="4" height="16"></rect>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <p class="video-caption">30 seconds that show why businesses love our AI voice agent</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section how-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Simple as 1-2-3</span>
+                <h2 class="section-title animate-on-scroll">
+                    How It Works
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    Your customers don't download anything. They just call you on WhatsApp like they always do.
+                </p>
+            </div>
+            <div class="steps-container">
+                <div class="step animate-on-scroll">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="32" fill="url(#step1Grad)"/>
+                                <defs>
+                                    <linearGradient id="step1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#25D366" stop-opacity="0.2"/>
+                                        <stop offset="100%" stop-color="#128C7E" stop-opacity="0.2"/>
+                                    </linearGradient>
+                                </defs>
+                                <path d="M32 18c-7.7 0-14 6.3-14 14 0 2.5.7 4.8 1.8 6.8L18 46l7.4-1.9c2 1.1 4.3 1.7 6.6 1.7 7.7 0 14-6.3 14-14s-6.3-14-14-14z" stroke="#25D366" stroke-width="2.5" fill="none"/>
+                                <path d="M38 30l-8 8-4-4" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Customer Calls on WhatsApp</h3>
+                        <p class="step-text">They tap your WhatsApp number—same number you already use. No new apps. No confusion. Just a call.</p>
+                    </div>
+                </div>
+                <div class="step-connector animate-on-scroll"></div>
+                <div class="step animate-on-scroll">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="32" fill="url(#step2Grad)"/>
+                                <defs>
+                                    <linearGradient id="step2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#25D366" stop-opacity="0.2"/>
+                                        <stop offset="100%" stop-color="#128C7E" stop-opacity="0.2"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="32" cy="28" r="8" stroke="#25D366" stroke-width="2.5" fill="none"/>
+                                <path d="M20 44c0-6.6 5.4-12 12-12s12 5.4 12 12" stroke="#25D366" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="44" cy="24" r="6" fill="#25D366"/>
+                                <path d="M42 24h4M44 22v4" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">AI Answers Instantly</h3>
+                        <p class="step-text">Our AI picks up in ~2 rings. Natural, warm voice. Takes orders. Books appointments. Answers FAQs. Transfers if needed.</p>
+                    </div>
+                </div>
+                <div class="step-connector animate-on-scroll"></div>
+                <div class="step animate-on-scroll">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="32" fill="url(#step3Grad)"/>
+                                <defs>
+                                    <linearGradient id="step3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#25D366" stop-opacity="0.2"/>
+                                        <stop offset="100%" stop-color="#128C7E" stop-opacity="0.2"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect x="22" y="20" width="20" height="24" rx="2" stroke="#25D366" stroke-width="2.5" fill="none"/>
+                                <path d="M26 28h12M26 32h12M26 36h8" stroke="#25D366" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="42" cy="38" r="6" fill="#25D366"/>
+                                <path d="M40 38l1.5 1.5 3-3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">You Get the Details</h3>
+                        <p class="step-text">Order summary, booking confirmation, or call transcript—sent straight to you. Ready to fulfill, no back-and-forth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Capabilities</span>
+                <h2 class="section-title animate-on-scroll">
+                    Everything It Can Do<br><span class="gradient-text">For Your Business</span>
+                </h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M8 8h16v16H8z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M12 14h8M12 18h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Take Orders</h3>
+                    <p class="feature-text">Food orders, product requests, service bookings—captured accurately with all the details.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="6" y="8" width="20" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M6 14h20M12 8v6M20 8v6" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Book Appointments</h3>
+                    <p class="feature-text">Salon slots, clinic visits, consultations—scheduled without the back-and-forth.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M14 12h4v2h-4zM13 18c0-1.7 1.3-3 3-3s3 1.3 3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Answer FAQs</h3>
+                    <p class="feature-text">Prices, hours, location, stock availability—instant answers, no waiting.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M8 16h6l4-8 4 16 4-8h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Natural, Warm Voice</h3>
+                    <p class="feature-text">Sounds like a real person, not a robot. Friendly, professional, and on-brand for your business.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 6l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Direct & Transfer Calls</h3>
+                    <p class="feature-text">Routes to the right person or extension. Works with your existing PBX system.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="12" cy="14" r="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="20" cy="14" r="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M6 24c0-3.3 2.7-6 6-6h8c3.3 0 6 2.7 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Human Handoff</h3>
+                    <p class="feature-text">Complex requests? It seamlessly transfers to you or your team. Best of both worlds.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M16 10v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">24/7 Availability</h3>
+                    <p class="feature-text">Midnight orders? Sunday bookings? Early morning questions? Always answered.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="6" y="6" width="20" height="20" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M10 12h12M10 16h12M10 20h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Summaries & Logs</h3>
+                    <p class="feature-text">Every call logged. Every order summarized. Full visibility into what's happening.</p>
+                </div>
+                <div class="feature-card feature-card-highlight animate-on-scroll">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4c-6.6 0-12 5.4-12 12 0 2.1.6 4.1 1.6 5.9L4 28l6.3-1.7c1.7.9 3.6 1.5 5.7 1.5 6.6 0 12-5.4 12-12S22.6 4 16 4z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M12 14l3 3 5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Works on Your Number</h3>
+                    <p class="feature-text">Keep your existing WhatsApp business number. No new numbers. Your customers call you like they always have.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="section industries-section" id="industries">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Made For You</span>
+                <h2 class="section-title animate-on-scroll">
+                    Built For Guyanese<br><span class="gradient-text">Businesses Like Yours</span>
+                </h2>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">🍗</div>
+                    <h3 class="industry-title">Restaurants & Food Spots</h3>
+                    <p class="industry-example">"Two curry duck with rice, one to go"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">💇</div>
+                    <h3 class="industry-title">Salons & Barbers</h3>
+                    <p class="industry-example">"Book a trim for Saturday 3pm"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">🏥</div>
+                    <h3 class="industry-title">Clinics & Healthcare</h3>
+                    <p class="industry-example">"Schedule a checkup with Dr. Singh"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">🔧</div>
+                    <h3 class="industry-title">Hardware & Auto Parts</h3>
+                    <p class="industry-example">"You have 3-inch PVC pipes in stock?"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">🚗</div>
+                    <h3 class="industry-title">Rentals & Tours</h3>
+                    <p class="industry-example">"Book a car for next weekend"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">🚐</div>
+                    <h3 class="industry-title">Transport Operators</h3>
+                    <p class="industry-example">"What time the bus leave for Berbice?"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">🚿</div>
+                    <h3 class="industry-title">Wash Bays</h3>
+                    <p class="industry-example">"Book a full detail for 2pm"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">🛒</div>
+                    <h3 class="industry-title">Retail Shops</h3>
+                    <p class="industry-example">"You have the Samsung charger?"</p>
+                </div>
+                <div class="industry-card animate-on-scroll">
+                    <div class="industry-emoji">📚</div>
+                    <h3 class="industry-title">Schools & Tutoring</h3>
+                    <p class="industry-example">"Enroll my son for math lessons"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="section demo-section" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Live Demo</span>
+                <h2 class="section-title animate-on-scroll">
+                    See It In Action
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    Watch a real conversation between a customer and the AI
+                </p>
+            </div>
+            <div class="demo-container animate-on-scroll">
+                <div class="demo-phone">
+                    <div class="demo-phone-frame">
+                        <div class="demo-phone-notch"></div>
+                        <div class="demo-phone-screen">
+                            <div class="demo-header">
+                                <div class="demo-business-avatar">
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <circle cx="24" cy="24" r="24" fill="url(#demoAvatarGrad)"/>
+                                        <defs>
+                                            <linearGradient id="demoAvatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" stop-color="#25D366"/>
+                                                <stop offset="100%" stop-color="#128C7E"/>
+                                            </linearGradient>
+                                        </defs>
+                                        <text x="24" y="30" text-anchor="middle" fill="white" font-size="20">🏠</text>
+                                    </svg>
+                                </div>
+                                <div class="demo-business-info">
+                                    <span class="demo-business-name">GDB Loan Helper</span>
+                                    <span class="demo-business-status">AI Voice Assistant</span>
+                                </div>
+                                <div class="demo-live-badge">
+                                    <span class="live-dot"></span>
+                                    LIVE
+                                </div>
+                            </div>
+                            <div class="demo-conversation" id="demoConversation">
+                            </div>
+                            <div class="demo-waveform-container">
+                                <div class="demo-waveform" id="demoWaveform">
+                                    <div class="demo-wave-bar"></div>
+                                    <div class="demo-wave-bar"></div>
+                                    <div class="demo-wave-bar"></div>
+                                    <div class="demo-wave-bar"></div>
+                                    <div class="demo-wave-bar"></div>
+                                    <div class="demo-wave-bar"></div>
+                                    <div class="demo-wave-bar"></div>
+                                    <div class="demo-wave-bar"></div>
+                                </div>
+                                <span class="demo-speaking" id="demoSpeaking">AI is listening...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo-info">
+                    <div class="demo-proof">
+                        <span class="proof-badge">✓ Already Live</span>
+                        <h3 class="proof-title">GDB Loan Helper Voice Bot</h3>
+                        <p class="proof-text">A real working example: the Guyana Development Bank's AI voice assistant answers loan questions and helps customers with business plans—24/7, instantly.</p>
+                    </div>
+                    <a href="#try-live" class="btn btn-primary btn-lg">
+                        <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Try It Live Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Neuereatec Section -->
+    <section class="section why-section" id="why">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Why Us</span>
+                <h2 class="section-title animate-on-scroll">
+                    We Handle<br><span class="gradient-text">Everything</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    You don't touch any tech. We install it, set it up, train it on your business, and maintain it.
+                </p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="20" fill="rgba(37, 211, 102, 0.1)"/>
+                            <path d="M15 20l3 3 7-7" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-title">Full Installation</h3>
+                    <p class="why-text">We connect it to your WhatsApp, your PBX, your phone system. You don't lift a finger.</p>
+                </div>
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="20" fill="rgba(37, 211, 102, 0.1)"/>
+                            <path d="M14 16h12M14 20h12M14 24h8" stroke="#25D366" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-title">Custom Training</h3>
+                    <p class="why-text">We train the AI on your menu, prices, FAQs, hours, services—so it knows your business.</p>
+                </div>
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="20" fill="rgba(37, 211, 102, 0.1)"/>
+                            <path d="M20 12v8l5 3" stroke="#25D366" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="20" cy="20" r="8" stroke="#25D366" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-title">Ongoing Support</h3>
+                    <p class="why-text">Updates, tweaks, maintenance—we handle it. Local Guyana support when you need it.</p>
+                </div>
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="20" fill="rgba(37, 211, 102, 0.1)"/>
+                            <rect x="12" y="14" width="16" height="12" rx="2" stroke="#25D366" stroke-width="2" fill="none"/>
+                            <circle cx="20" cy="20" r="3" stroke="#25D366" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-title">Full Business Tech</h3>
+                    <p class="why-text">Need CCTV, PBX phones, networking, Starlink? We do that too. One team for all your tech.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Getting Started</span>
+                <h2 class="section-title animate-on-scroll">
+                    From Call to<br><span class="gradient-text">Go-Live in Days</span>
+                </h2>
+            </div>
+            <div class="process-timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <span>1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Call or Message Us</h3>
+                        <p class="timeline-text">Quick chat about your business and what you need. No tech jargon, just conversation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <span>2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">We Learn Your Business</h3>
+                        <p class="timeline-text">Your menu, services, prices, FAQs, hours—we gather everything the AI needs to know.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <span>3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">We Set It Up</h3>
+                        <p class="timeline-text">Installation, connection to your WhatsApp, PBX integration if needed. All done by us.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <span>4</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">You Go Live</h3>
+                        <p class="timeline-text">Your AI voice agent starts answering calls. You start catching every order and booking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">Pricing</span>
+                <h2 class="section-title animate-on-scroll">
+                    Packages Tailored to<br><span class="gradient-text">Your Business</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll">
+                    Every business is different. We'll put together a package that fits what you need.
+                </p>
+            </div>
+            <div class="pricing-card animate-on-scroll">
+                <div class="pricing-content">
+                    <div class="pricing-features">
+                        <div class="pricing-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="rgba(37, 211, 102, 0.1)"/>
+                                <path d="M8 12l3 3 5-5" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Full installation & setup</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="rgba(37, 211, 102, 0.1)"/>
+                                <path d="M8 12l3 3 5-5" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Custom AI training for your business</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="rgba(37, 211, 102, 0.1)"/>
+                                <path d="M8 12l3 3 5-5" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Works with your existing number</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="rgba(37, 211, 102, 0.1)"/>
+                                <path d="M8 12l3 3 5-5" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>PBX integration available</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="rgba(37, 211, 102, 0.1)"/>
+                                <path d="M8 12l3 3 5-5" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Ongoing maintenance & support</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="rgba(37, 211, 102, 0.1)"/>
+                                <path d="M8 12l3 3 5-5" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Local Guyana support team</span>
+                        </div>
+                    </div>
+                    <div class="pricing-cta">
+                        <p class="pricing-note">Get a custom quote based on your business needs</p>
+                        <a href="https://wa.me/5927129487?text=Hi%20Neuereatec%2C%20I%27d%20like%20a%20quote%20for%20the%20WhatsApp%20AI%20Voice%20Agent%20for%20my%20business" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                            <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            Get a Quote on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label animate-on-scroll">FAQ</span>
+                <h2 class="section-title animate-on-scroll">
+                    Questions?<br><span class="gradient-text">We've Got Answers</span>
+                </h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do my customers need to download an app?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. They just call your WhatsApp number like they always do. Nothing to download, nothing to learn. They won't even know it's AI unless you tell them—it sounds that natural.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Does it work after hours?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, 24/7. Midnight orders, Sunday bookings, 5am questions—the AI answers every call, any time. You wake up to a list of orders and bookings, not missed calls.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can it transfer to a real person?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. If a customer asks for a human, has a complex request, or if you set up specific triggers, the AI seamlessly hands off to you or your team. Best of both worlds.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What about my existing number or phone system?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We connect it to your existing WhatsApp business number—your customers call the same number they always have. We can also integrate with your PBX system (like Avaya IP Office) so the AI can transfer calls to extensions.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What languages does it speak?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>English by default, with natural Guyanese-friendly conversation. Additional language options are available—just ask us what you need.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is it powered by Grok AI?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Powered by Grok AI for natural, intelligent conversations. It understands context, handles follow-up questions, and gets smarter with your business over time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section cta-section" id="cta">
+        <div class="cta-bg">
+            <div class="cta-gradient"></div>
+            <div class="cta-glow cta-glow-1"></div>
+            <div class="cta-glow cta-glow-2"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2 class="cta-title">
+                    Stop Missing Calls.<br>
+                    <span class="gradient-text">Start Catching Sales.</span>
+                </h2>
+                <p class="cta-subtitle">
+                    Your customers are calling. Let our AI answer—instantly, professionally, 24/7.
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5927129487?text=Hi%20Neuereatec%2C%20I%20want%20the%20WhatsApp%20AI%20Voice%20Agent%20for%20my%20business" class="btn btn-primary btn-xl" target="_blank" rel="noopener">
+                        <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Get It Set Up Now
+                    </a>
+                    <a href="https://neuereatec.org/signup" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">
+                        Sign Up Online
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 100 100" fill="none">
+                            <defs>
+                                <linearGradient id="footerLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#25D366"/>
+                                    <stop offset="100%" stop-color="#128C7E"/>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="45" fill="url(#footerLogoGrad)"/>
+                            <path d="M50 25c-13.8 0-25 11.2-25 25 0 4.4 1.2 8.6 3.3 12.3L25 75l13.2-3.5c3.5 1.9 7.5 3 11.8 3 13.8 0 25-11.2 25-25s-11.2-25-25-25zm12.5 32.8c-.5 1.5-3 2.8-4.2 3-.1 0-.2 0-.3.1-1.1.1-2.5.2-8.5-1.8-7.5-2.5-12.3-10.1-12.7-10.6-.3-.5-2.8-3.8-2.8-7.2 0-3.4 1.8-5.1 2.4-5.8.6-.7 1.3-.8 1.8-.8h1.3c.4 0 1-.2 1.5 1.2.6 1.4 1.9 4.7 2.1 5 .2.3.3.7.1 1.1-.2.4-.3.7-.6 1-.3.4-.6.8-1 1.2-.3.3-.6.7-.3 1.3.4.6 1.6 2.7 3.5 4.3 2.4 2.1 4.4 2.8 5 3.1.6.3 1 .3 1.3-.2.4-.5 1.5-1.8 1.9-2.4.4-.6.8-.5 1.4-.3.5.2 3.4 1.6 4 1.9.6.3 1 .4 1.1.7.2.2.2 1.3-.3 2.8z" fill="white"/>
+                        </svg>
+                        <span>Neuereatec Enterprise</span>
+                    </a>
+                    <p class="footer-tagline">AI Voice Agents & Business Technology Solutions in Guyana</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Product</h4>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#features">Features</a>
+                        <a href="#industries">Industries</a>
+                        <a href="#pricing">Pricing</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="https://neuereatec.org" target="_blank" rel="noopener">About Us</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="https://neuereatec.org/signup" target="_blank" rel="noopener">Sign Up</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <a href="https://wa.me/5927129487" target="_blank" rel="noopener">WhatsApp</a>
+                        <a href="https://neuereatec.org" target="_blank" rel="noopener">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Neuereatec Enterprise. All rights reserved.</p>
+                <p class="footer-services">CCTV • PBX Phones • Networking • Starlink/Internet • IoT</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5927129487?text=Hi%20Neuereatec%2C%20I%20want%20the%20WhatsApp%20AI%20Voice%20Agent%20for%20my%20business" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
