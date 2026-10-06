@@ -130,7 +130,13 @@ button {
     width: 100%;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
+}
+
+@media (min-width: 480px) {
+    .container {
+        padding: 0 var(--spacing-lg);
+    }
 }
 
 /* ============================================
@@ -555,6 +561,15 @@ button {
     color: var(--text-secondary);
     margin-bottom: var(--spacing-xl);
     max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+    .hero-subtitle {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -573,12 +588,23 @@ button {
     flex-direction: column;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-2xl);
+    width: 100%;
+}
+
+.hero-ctas .btn {
+    width: 100%;
+    justify-content: center;
 }
 
 @media (min-width: 480px) {
     .hero-ctas {
         flex-direction: row;
         justify-content: center;
+        width: auto;
+    }
+    
+    .hero-ctas .btn {
+        width: auto;
     }
 }
 
@@ -1509,13 +1535,20 @@ button {
 .number-display {
     display: flex;
     align-items: center;
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
     background: linear-gradient(135deg, rgba(37, 211, 102, 0.1) 0%, rgba(18, 140, 126, 0.1) 100%);
     border: 2px solid var(--border-glow);
-    padding: var(--spacing-lg) var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-lg);
     border-radius: var(--border-radius-xl);
     box-shadow: 0 0 60px rgba(37, 211, 102, 0.2), inset 0 1px 0 rgba(255,255,255,0.05);
     animation: number-pulse 3s ease-in-out infinite;
+}
+
+@media (min-width: 480px) {
+    .number-display {
+        gap: var(--spacing-md);
+        padding: var(--spacing-lg) var(--spacing-xl);
+    }
 }
 
 @keyframes number-pulse {
@@ -1552,12 +1585,23 @@ button {
     flex-direction: column;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-xl);
+    width: 100%;
+}
+
+.try-live-buttons .btn {
+    width: 100%;
+    justify-content: center;
 }
 
 @media (min-width: 640px) {
     .try-live-buttons {
         flex-direction: row;
         justify-content: center;
+        width: auto;
+    }
+    
+    .try-live-buttons .btn {
+        width: auto;
     }
 }
 
@@ -1837,12 +1881,23 @@ button {
 
 .pricing-cta {
     text-align: center;
+    width: 100%;
+}
+
+.pricing-cta .btn {
+    width: 100%;
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
     .pricing-cta {
         text-align: right;
         flex-shrink: 0;
+        width: auto;
+    }
+    
+    .pricing-cta .btn {
+        width: auto;
     }
 }
 
@@ -1989,11 +2044,22 @@ button {
     flex-direction: column;
     gap: var(--spacing-md);
     justify-content: center;
+    width: 100%;
+}
+
+.cta-buttons .btn {
+    width: 100%;
+    justify-content: center;
 }
 
 @media (min-width: 480px) {
     .cta-buttons {
         flex-direction: row;
+        width: auto;
+    }
+    
+    .cta-buttons .btn {
+        width: auto;
     }
 }
 
