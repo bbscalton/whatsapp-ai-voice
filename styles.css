@@ -2693,3 +2693,21 @@ body.modal-open {
 .pricing-cta .pricing-note { margin: var(--spacing-md) 0 0; }
 @media (min-width: 768px) { .pricing-cta { max-width: 240px; text-align: center; } .pricing-cta .btn { width: 100%; } }
 @media (max-width: 480px) { .pricing-card { padding: var(--spacing-xl) var(--spacing-lg); } .pricing-amount { font-size: var(--font-size-4xl); } }
+
+/* Two pricing tiers */
+.pricing-grid { display: grid; grid-template-columns: 1fr; gap: var(--spacing-xl); max-width: 980px; margin: 0 auto; }
+@media (min-width: 900px) { .pricing-grid { grid-template-columns: 1fr 1fr; align-items: stretch; } }
+.pricing-grid .pricing-card.pricing-tier { max-width: none; margin: 0; display: flex; flex-direction: column; position: relative; border-color: var(--border-color); box-shadow: none; }
+.pricing-grid .pricing-card.pricing-featured { border-color: var(--border-glow); box-shadow: var(--shadow-glow); }
+.pricing-tier .pricing-head { padding-bottom: var(--spacing-lg); margin-bottom: var(--spacing-lg); }
+.pricing-tier .pricing-amount { font-size: var(--font-size-4xl); }
+.pricing-tier .pricing-features { flex: 1; margin-bottom: var(--spacing-xl); }
+.pricing-tier .pricing-cta, .pricing-tier .pricing-cta .btn { width: 100%; max-width: none; text-align: center; }
+.pricing-best { margin-top: var(--spacing-sm); font-size: var(--font-size-sm); color: var(--whatsapp-green); font-weight: 600; }
+.pricing-setup strong { color: var(--text-primary); }
+.pricing-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: var(--gradient-primary); color: #fff; font-size: var(--font-size-xs); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 14px; border-radius: 999px; white-space: nowrap; }
+.pricing-footnote { text-align: center; margin-top: var(--spacing-xl); font-size: var(--font-size-sm); color: var(--text-secondary); }
+.pricing-footnote a { color: var(--whatsapp-green); }
+.signup-pair { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--spacing-md); margin-top: var(--spacing-xl); }
+.signup-pair .btn { justify-content: center; }
+@media (max-width: 600px) { .signup-pair .btn { width: 100%; } }
