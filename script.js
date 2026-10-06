@@ -358,7 +358,7 @@ function initSmoothScroll() {
     // After a delay, replace with actual response
     setTimeout(() => {
         typingBubble.classList.remove('typing');
-        typingBubble.innerHTML = '"Perfect! That\'s two mauby added. Your total is G$3,200. Ready in 15 minutes. Name for the order?"';
+        typingBubble.innerHTML = '"Perfect! That\'s two mauby added. Your total is G$4,400. Ready in 15 minutes. Name for the order?"';
     }, 3000);
 })();
 
@@ -390,7 +390,7 @@ function initSmoothScroll() {
                 { type: 'customer', text: 'Two curry duck with rice, one to go' },
                 { type: 'ai', text: 'Got it! Two curry duck with rice—one dine-in, one takeaway. Would you like anything to drink?' },
                 { type: 'customer', text: 'Add two mauby please' },
-                { type: 'ai', text: 'Perfect! Two mauby added. Your total is G$3,200. Ready in 15 minutes. Name for the order?' }
+                { type: 'ai', text: 'Perfect! Two mauby added. Your total is G$4,400. Ready in 15 minutes. Name for the order?' }
             ]
         },
         salon: {
@@ -414,7 +414,7 @@ function initSmoothScroll() {
                 { type: 'customer', text: 'A general checkup with Dr. Singh' },
                 { type: 'ai', text: 'Dr. Singh has openings on Monday at 9am or Wednesday at 2pm. Which works better?' },
                 { type: 'customer', text: 'Wednesday 2pm please' },
-                { type: 'ai', text: 'Done! You\'re booked with Dr. Singh, Wednesday at 2pm. Please bring your insurance card. Is this number good for reminders?' }
+                { type: 'ai', text: 'Done! You\'re booked with Dr. Singh, Wednesday at 2pm. Please bring your ID and any past test results. Is this number good for reminders?' }
             ]
         },
         hardware: {
@@ -457,12 +457,12 @@ function initSmoothScroll() {
             emoji: '🚿',
             name: 'Sparkle Wash Bay',
             conversation: [
-                { type: 'customer', text: 'I want to book a wash for my car' },
-                { type: 'ai', text: 'Hi there! Welcome to Sparkle Wash Bay. What type of wash would you like—basic, full, or detail?' },
-                { type: 'customer', text: 'Full wash. What time you have for today?' },
-                { type: 'ai', text: 'For today, I have 11am, 1pm, and 4pm available. Full wash is G$3,500 and takes about 45 minutes.' },
-                { type: 'customer', text: 'Book me for 1pm' },
-                { type: 'ai', text: 'You\'re booked for 1pm today—full wash, G$3,500. What\'s the car make and color so we know it\'s you?' }
+                { type: 'customer', text: 'I want to book a full detail for 2pm' },
+                { type: 'ai', text: 'Hi there! Welcome to Sparkle Wash Bay. A full detail at 2pm—let me check availability.' },
+                { type: 'customer', text: 'Yes, 2pm if you have it' },
+                { type: 'ai', text: '2pm is available! Full detail is G$8,000 and takes about 2 hours. That work for you?' },
+                { type: 'customer', text: 'Yes, book it' },
+                { type: 'ai', text: 'You\'re booked for 2pm today—full detail, G$8,000. What\'s the car make and color so we know it\'s you?' }
             ]
         },
         retail: {

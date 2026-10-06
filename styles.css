@@ -2267,16 +2267,23 @@ section[id] {
     gap: var(--spacing-xs);
     margin-top: var(--spacing-sm);
     font-size: var(--font-size-xs);
-    color: var(--text-muted);
-    opacity: 0;
-    transform: translateY(4px);
+    color: var(--whatsapp-green);
+    opacity: 1;
+    transform: translateY(0);
     transition: all var(--transition-base);
 }
 
-.industry-card:hover .industry-play-hint,
-.industry-card:focus .industry-play-hint {
-    opacity: 1;
-    transform: translateY(0);
+@media (min-width: 1024px) {
+    .industry-play-hint {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+    
+    .industry-card:hover .industry-play-hint,
+    .industry-card:focus .industry-play-hint {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .industry-play-hint svg {
