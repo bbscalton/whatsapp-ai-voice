@@ -2718,3 +2718,8 @@ body.modal-open {
 @media (min-width: 1100px) { .pricing-grid.pricing-grid-3 { grid-template-columns: repeat(3, 1fr); } }
 .pricing-grid-3 .pricing-card.pricing-tier { padding: var(--spacing-xl); }
 .pricing-tip { font-size: var(--font-size-sm); color: var(--text-secondary); background: rgba(37, 211, 102, 0.06); border: 1px dashed rgba(37, 211, 102, 0.35); border-radius: var(--border-radius-sm); padding: 10px 12px; margin: -8px 0 var(--spacing-lg); text-align: center; }
+
+/* Custom / Enterprise: no price, text in the price slot */
+.pricing-amount.pricing-amount-text { font-size: var(--font-size-2xl); font-weight: 800; line-height: 1.2; }
+.pricing-tier .pricing-amount.pricing-amount-text { font-size: var(--font-size-2xl); }
+.pricing-tier .pricing-price { min-height: 3.1rem; align-items: center; }
