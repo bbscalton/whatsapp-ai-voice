@@ -2711,3 +2711,10 @@ body.modal-open {
 .signup-pair { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--spacing-md); margin-top: var(--spacing-xl); }
 .signup-pair .btn { justify-content: center; }
 @media (max-width: 600px) { .signup-pair .btn { width: 100%; } }
+
+/* Three pricing tiers */
+.pricing-grid.pricing-grid-3 { max-width: 1200px; }
+@media (min-width: 900px) and (max-width: 1099px) { .pricing-grid.pricing-grid-3 { grid-template-columns: 1fr 1fr; } .pricing-grid-3 > .pricing-card:first-child { grid-column: 1 / -1; } }
+@media (min-width: 1100px) { .pricing-grid.pricing-grid-3 { grid-template-columns: repeat(3, 1fr); } }
+.pricing-grid-3 .pricing-card.pricing-tier { padding: var(--spacing-xl); }
+.pricing-tip { font-size: var(--font-size-sm); color: var(--text-secondary); background: rgba(37, 211, 102, 0.06); border: 1px dashed rgba(37, 211, 102, 0.35); border-radius: var(--border-radius-sm); padding: 10px 12px; margin: -8px 0 var(--spacing-lg); text-align: center; }
