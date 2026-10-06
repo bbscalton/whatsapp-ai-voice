@@ -2594,6 +2594,12 @@ section[id] {
     background: rgba(255, 255, 255, 0.15);
 }
 
+.demo-modal-sound-toggle.is-on {
+    background: var(--whatsapp-green, #25D366);
+    color: #fff;
+    font-weight: 600;
+}
+
 .demo-modal-sound-toggle input {
     display: none;
 }
