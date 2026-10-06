@@ -2647,3 +2647,29 @@ section[id] {
 body.modal-open {
     overflow: hidden;
 }
+
+/* Industry card photos */
+.industry-card {
+    overflow: hidden;
+    padding: 0 0 var(--spacing-lg);
+    color: var(--text-primary);
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.industry-card > *:not(.industry-img) { padding-left: var(--spacing-sm); padding-right: var(--spacing-sm); }
+.industry-img {
+    display: block;
+    width: 100%;
+    margin: 0 0 var(--spacing-md);
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    height: auto;
+    transition: transform var(--transition-base);
+}
+.industry-card:hover .industry-img { transform: scale(1.06); }
+@media (min-width: 1024px) {
+    .industries-grid { grid-template-columns: repeat(4, 1fr); }
+}
