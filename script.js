@@ -459,12 +459,10 @@ function initSmoothScroll() {
             emoji: '🚿',
             name: 'Sparkle Wash Bay',
             conversation: [
-                { type: 'customer', text: 'Hi! I want to book a full detail for 2 o\'clock.' },
-                { type: 'ai', text: 'Hi there! Welcome to Sparkle Wash Bay. A full detail at 2, let me just check for you.' },
-                { type: 'customer', text: 'Yeah, 2 o\'clock if you have it.' },
-                { type: 'ai', text: 'Two o\'clock is open! A full detail is G$8,000 and takes about two hours. That works for you?' },
-                { type: 'customer', text: 'Yes, book it.' },
-                { type: 'ai', text: 'You\'re booked for 2 o\'clock today, full detail, G$8,000. What\'s the make and color of the car, so we know it\'s you?' }
+                { type: 'customer', text: 'Hello, I want car wash.' },
+                { type: 'ai', text: 'Sure, I can book that for you. Can I get your name, the car model, and the plate number?' },
+                { type: 'customer', text: 'John Doe. Silver Fielder wagon, plate PCB 1234.' },
+                { type: 'ai', text: 'Okay, thank you, John! You\'re booked in for the wash bay.' }
             ]
         },
         retail: {
